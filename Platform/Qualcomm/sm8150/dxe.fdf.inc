@@ -246,14 +246,8 @@
     SECTION UI = "UFSDxe"
   }
 
-  FILE DRIVER = 04de8591-d2b3-4077-bbbe-b12070094eb6 {
-    SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/sm8150/I2C/I2C.depex
-    SECTION PE32 = Platform/EFI_Binaries/Drivers/sm8150/I2C/I2C.efi
-    SECTION UI = "I2C"
-  }
-
-  FILE DRIVER = 569ea0de-b557-4043-84cf-01103fe516e5 {
-    SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/sm8150/GpiDxe/GpiDxe.depex
-    SECTION PE32 = Platform/EFI_Binaries/Drivers/sm8150/GpiDxe/GpiDxe.efi
-    SECTION UI = "GpiDxe"
-  }
+  # FILE DRIVER = f10f76db-42c1-533f-34a8-69be24653110 {
+  #  SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/sm8150/SdccDxe/SdccDxe.depex
+  #  SECTION PE32 = Platform/EFI_Binaries/Drivers/sm8150/SdccDxe/SdccDxe.efi
+  #  SECTION UI = "SdccDxe"
+  # }
